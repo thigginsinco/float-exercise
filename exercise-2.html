@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Document</title>
+	<style>
+		/*
+			TODO: Keeping the image-container 400px wide, make the grey border
+			go around every element of the image-container.
+		*/
+		.image-container {
+			max-width: 400px;
+			border: 5px solid grey;
+			height: 100%;
+			overflow-x: scroll;
+		}
+		/*
+			TODO: Make all of the image-container elements appear on one line,
+			with a horizontal scrollbar (hint: look at the css property
+			"overflow")
+		*/
+		.container-element {
+			float: left;
+			padding: 10px;
+			overflow: scroll;
+		}
+
+		.clearfix {
+			clear: left;
+		}
+
+		.inner-container {
+			width: 1200px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="image-container">
+		<div class="inner-container">
+			<div class="container-element">
+				<img src="./img/cat-1.jpg" alt="cat-1.jpg" />
+			</div>
+			<div class="container-element">
+				<img src="./img/cat-2.jpg" alt="cat-2.jpg" />
+			</div>
+			<div class="container-element">
+				<img src="./img/cat-3.jpg" alt="cat-3.jpg" />
+			</div>
+			<div class="container-element">
+				<img src="./img/cat-4.jpg" alt="cat-4.jpg" />
+			</div>
+			<div class="container-element">
+				<img src="./img/cat-5.jpg" alt="cat-5.jpg" />
+			</div>
+			<div class="container-element">
+				<img src="./img/cat-6.jpg" alt="cat-6.jpg" />
+			</div>
+			<div class="container-element">
+				<img src="./img/cat-7.jpg" alt="cat-7.jpg" />
+			</div>
+			<div class="container-element">
+				<img src="./img/cat-8.jpg" alt="cat-8.jpg" />
+			</div>
+			<div class="container-element">
+				<img src="./img/cat-9.jpg" alt="cat-9.jpg" />
+			</div>
+			<div class="container-element">
+				<img src="./img/cat-10.jpg" alt="cat-10.jpg" />
+			</div>
+			<div class= "clearfix"></div>
+		</div>	
+	</div>
+</body>
+</html>
